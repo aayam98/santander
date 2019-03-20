@@ -1,0 +1,110 @@
+.wy-side-nav-search {
+    background-color: #fff;
+    margin: 0;
+}
+
+.wy-nav-content {
+    padding: 1.618em 0;
+    max-width: 900px;
+}
+
+.wy-side-nav-search a {
+    color: transparent;
+}
+
+.wy-nav-side {
+    background-color: #7e7e7e;
+}
+
+.wy-menu-vertical a {
+    color: #fff;
+    height: 40px;
+    line-height: 25px;
+}
+
+.wy-menu-vertical a:hover {
+    background-color: #ec0000;
+    cursor: pointer;
+}
+
+.wy-menu-vertical li.on a,
+.wy-menu-vertical li.current>a {
+    color: #ec0000;
+}
+
+.wy-menu-vertical li.on a,
+.wy-menu-vertical li.current>a {
+    color: #ec0000;
+    height: 40px;
+    line-height: 25px;
+}
+
+
+}
+.icon::before {
+    display: none;
+}
+.wy-side-nav-search .icon {
+    background: url('../img/logo.png');
+    height: 80px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    transition: 0.3s all ease-in-out;
+    filter: grayscale(100%);
+}
+.wy-side-nav-search>a:hover,
+.wy-side-nav-search .wy-dropdown>a:hover {
+    background: url('../img/logo.png');
+    height: 80px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: filter .2s ease-in-out;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+form {
+    display: none;
+}
+.about img {
+    height: 250px!important;
+    width: 100%;
+    object-fit: cover;
+}
+h1 {
+    background-color: #7e7e7e;
+    color: #fff;
+    padding: 5px 10px;
+}
+.subnav {
+    background: #7e7e7e;
+}
+.subnav a {
+    color: #fff!important;
+}
+.rst-versions .rst-current-version {
+    background-color: #636363;
+}
+.wy-breadcrumbs {
+    display: none;
+}
+hr {
+    display: none;
+}
+.fix a {
+    font-style: italic;
+    font-weight: bold;
+    color: grey;
+}
+.fix a:hover {
+    text-decoration: underline;
+    color: #ec0000;
+}
+.subhead {
+    color: #ec0000;
+}
+.wy-nav-top {
+    background-color: #ec0000;
+}
